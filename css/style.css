@@ -10,6 +10,8 @@
 
 .link {
     list-style-type: none;
+}
+link {
     text-decoration: none;
 }
 
@@ -199,3 +201,20 @@ button:focus {
     background-color: #2e2f42;
 }
 
+.ul-address .link {
+    color: #434455;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+}
+
+.ul-address .link:hover {
+color: #404BBF;
+}
+
+.ul-address .link:focus {
+    color: #404BBF;
+}
