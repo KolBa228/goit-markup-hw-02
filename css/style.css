@@ -22,6 +22,7 @@ li {
 }
 
 .portfolio-button {
+    cursor: pointer;
     background-color: #E7E9FC;
     color: var(--main-color);
     border-radius: 4px;
@@ -71,7 +72,6 @@ text-decoration: none;
 
 .footer-text {
     color: #E7E9FC;
-        font-size: 1;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -105,9 +105,8 @@ text-decoration: none;
 }
 .hero-title {
     color: var(--main-white-color);
-        font-style: normal;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1;
         text-align: center;
         letter-spacing: 0.02em;
 }
@@ -120,6 +119,7 @@ text-decoration: none;
         align-items: flex-start;
         padding: 16px 32px;
         gap: 10px;
+        cursor: pointer;
 }
 .hero-button:focus, .hero-button:hover {
     background-color: var(--acent-color);
@@ -132,7 +132,7 @@ text-decoration: none;
 .choise-title {
     color: var(--main-text-color);
         font-size: 36px;
-        line-height: 3;
+        line-height: 1.1;
         text-transform: capitalize;
         letter-spacing: 0.02em;
 }
@@ -142,6 +142,7 @@ text-decoration: none;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .specific-text {
@@ -156,29 +157,22 @@ text-decoration: none;
 
 .team-title {
     color: var(--main-text-color);
-        font-style: normal;
-        font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1;
         letter-spacing: 0.02em;
         text-transform: capitalize
 }
 
 .team-crew {
     color: var(--main-text-color);
-        font-style: normal;
         font-weight: 500;
-        font-size: 1.25;
-        line-height: 1.5;
+        font-size: 20;
+        line-height: 1.2;
         letter-spacing: 0.02em;
-        text-transform: capitalize
 }
 
 .team-post {
     color: var(--p-color);
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -204,4 +198,18 @@ color: var(--acent-color);
 
 .link:focus, .link:hover {
     color: var(--acent-color);
+}
+
+.portfolio-title {
+    color: var(--main-text-color);
+    font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    color: var(--p-color);
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
